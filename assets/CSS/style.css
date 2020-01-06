@@ -47,29 +47,8 @@ a.nav-link{
 a:last-child { 
     border-right: none;
 }
-  
-/*.nav-link a:hover {
-    background-color: #4aaaa5;
-    color: white;
-  }
-  
-.nav-link a.active {
-    background-color: #4aaaa5;
-    color: gray;
-  }
 
-.nav-link a:last-child { 
-    border-right: none;
-}
-
-.navbar-brand {
-    background-color: #4aaaa5;
-    color: white;
-    padding: 20px;
-    margin: 0 0 0 0;
-}*/
-
-.row {
+#container{
     
     overflow: auto;
     font-family: Quicksand, sans-serif;
@@ -88,12 +67,8 @@ h1 {
     margin: 0 10px; 
 }
 
-
 .container img {
-    float: left;
     margin: 10px 0px 10px 0px;
-    width: 200px;
-    height: 230px;
 }
 
 .container p {
@@ -126,6 +101,73 @@ ul {
 a.navbar-brand {
     text-align: center;
 }
+/*contact*/
+#container-contact {
+    float: initial;
+    width: auto;
+    max-width: 960px;
+    padding: 0 15px;
+    font-family: Quicksand, sans-serif;
+    background-color: #f8f9fa;
+    height: calc(100vh - 250px);
+    border: 1px solid #dedede;
+    margin: 40px auto 40px auto;
+}
+
+/* portfolio.html*/
+#projects {
+    border-style: none;
+    font-size: 12px;
+    margin: 10px 5px 10px 5px;
+}
+.portfolio img {
+    width: 50%;
+    height: 30%;
+}
+
+#portfolio {
+    color: #4aaaa5;
+    font-size: 32px;
+    padding: 20px 20px 20px 50px;
+    text-align: left;
+}
+
+
+}
+
+.p1,
+.p2,
+.p3,
+.p4,
+.p5 { 
+    position: relative;
+    margin: 20px;
+    float: left;
+}
+
+.banner1,
+.banner2,
+.banner3,
+.banner4,
+.banner5 {
+    position: absolute;
+    width: 83.5%;
+    background-color: #4aaaa5;
+    height: 60px;
+    top:60%;
+    margin: 10px;
+}
+
+h3 {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    text-align: center;
+    padding: 10px;
+    font-family: Quicksand, sans-serif;
+    
+}
+
 
 
 @media (max-width: 640px) {
@@ -153,13 +195,25 @@ a.navbar-brand {
 @media (min-width: 768px) and (max-width: 979px) {
     .container img {
         margin-right: 10px;
+        margin-top: 15px;
+    
+        
     }
     .container p{
         font-size:1.5em;
         line-height: 1.5em;
+        
     }
     .navbar {
         flex-wrap: nowrap;
+    }
+    .banner1,
+    .banner2,
+    .banner3,
+    .banner4,
+    .banner5 { 
+        width: 91.5%;
+        margin-left: 0;
     }
     
 }
@@ -170,7 +224,6 @@ a.navbar-brand {
         line-height: 1.7em;
     }
     .container img {
-        margin-right: 20px;
         margin-top: 20px;
     }
     .navbar {
@@ -186,12 +239,22 @@ a.navbar-brand {
         padding: 0 0 0 0;
     }
     .container {
-        float:left;
         margin-left:50px;
+    }
+    #container-contact {
+        float:initial;
     }
     #footer {
         font-size:1em;
         height: 60px;
+    }
+    .banner1,
+    .banner2,
+    .banner3,
+    .banner4,
+    .banner5 { 
+        width: 93.5%;
+        margin-left: 0;
     }
 }
 

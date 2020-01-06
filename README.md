@@ -2,4 +2,5 @@
 Responsive Portfolio
 
 
-Index.html and Bootstrap and media queries to make resposive following certain specifications for width 640px, 768px and 980px. 
+Resposive Portfolio with Twitter Bootstrap
+Still need to fix banner on item 5 in portfolio in sx version. 
