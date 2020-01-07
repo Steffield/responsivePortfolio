@@ -106,12 +106,15 @@ a.navbar-brand {
     float: initial;
     width: auto;
     max-width: 960px;
-    padding: 0 15px;
+   
     font-family: Quicksand, sans-serif;
     background-color: #f8f9fa;
     height: calc(100vh - 250px);
     border: 1px solid #dedede;
     margin: 40px auto 40px auto;
+}
+#contactInfo {
+    padding: 0 15px;
 }
 
 /* portfolio.html*/
@@ -239,7 +242,7 @@ h3 {
         padding: 0 0 0 0;
     }
     .container {
-        margin-left:50px;
+        margin-left:40px;
     }
     #container-contact {
         float:initial;
